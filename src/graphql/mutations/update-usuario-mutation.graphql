@@ -1,0 +1,5 @@
+mutation UpdateUsuario($id: ID!, $toUpdate: UsuarioUpdateInput!) {
+  updateUsuario(data: $toUpdate, where: {id: $id}) {
+    id
+  }
+}

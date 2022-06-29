@@ -1,0 +1,7 @@
+query GetUsuarios {
+  usuarios(stage: PUBLISHED) {
+    id
+    nome
+    idade
+  }
+}

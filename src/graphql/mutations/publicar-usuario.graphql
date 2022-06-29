@@ -1,0 +1,5 @@
+mutation PublicarUsuario($id: ID!) {
+  publishUsuario(where: {id: $id}, to: PUBLISHED) {
+    id
+  }
+}

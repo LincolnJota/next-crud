@@ -1,0 +1,5 @@
+mutation AtualizarUsuario($nome: String!, $idade: Int!, $id: ID!) {
+  updateUsuario(data: {nome: $nome, idade: $idade}, where: {id: $id}) {
+    id
+  }
+}
