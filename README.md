@@ -1,4 +1,11 @@
+
+## Sobre o Repositório
+Este repositório é para fins didáticos no decorrer do meu aprendizado em React e Next.js
+
+
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+
 
 ## Getting Started
 
